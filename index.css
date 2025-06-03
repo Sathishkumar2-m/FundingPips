@@ -1,0 +1,1122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000042;
+    height: 100vh;
+    width: 100vw;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+/* ------------nav------------- */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 990;
+    
+}
+.nav{
+    height: 4%;
+    width: 100%;
+    background-color: #000042;
+    background-image: url(./img/idoG8HR9sT_logos.png);
+    background-repeat: no-repeat;
+    background-size: 3rem 3rem;
+    background-position: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.nav h3{
+    position: absolute;
+    left: 3.5rem;
+}
+.na{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    text-align: center;
+}
+.na a{
+    height: 4rem;
+    width: 5.7rem;
+    color: white;
+    text-decoration: none;
+    padding: 22px 0;
+
+}
+.btnn{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    position: absolute;
+    right: 1rem;
+   
+}
+.btnn button{
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 15px;
+}
+.sb{
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+.db{
+    color: white;
+    border: none;
+    background-color: #2E47DE;
+}
+.hh{
+    height:1rem;
+    overflow:hidden;
+}
+.inn{
+     height: 12rem;
+    width: 10rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 4rem;
+    left: 42.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+.inn li{
+        font-size: 1.1rem;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 14px;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+.na a:hover{
+    color:#2E47DE;
+}
+.hh:hover .inn{
+     display: block;
+    z-index: 1000;
+}
+.inn li:hover{
+    border-bottom: 1.5px solid white;
+}
+.sb:hover{
+    background-color:white;
+    border: none;
+    color: #000042;
+}
+.db:hover{
+    background-color:white;
+    color: #000042;
+}
+
+/* ------------nav------------- */
+/* ----------banner------------ */
+.bnr{
+    width: 100%;
+     overflow: hidden;
+}
+.bnr img{
+    width: 100%;
+    z-index: 0;
+}
+.btnb button{
+    padding: 15px;
+    height: 3rem;
+    width: fit-content;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+.btnb{
+   transform: translateX(22%);
+}
+.bc{
+    background-color: #2E47DE;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    animation: scale 0.3s linear;
+}
+.jc{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    animation: scale 0.5s linear;
+}
+@keyframes scale{
+    0%{
+        transform: scale(0.10);
+    }
+    100%{
+        transform:scale();
+    }
+}
+.bc:hover{
+    background-color: white;
+    color:#000042;
+}
+.jc:hover{
+    background-color: white;
+    color: #000042;
+}
+/* ----------banner------------ */
+/* ----------why--------------- */
+.maini{
+    width: 100%;
+    height: auto;
+     /* overflow: hidden; */
+}
+main,footer{
+    overflow: hidden;
+}
+.why{
+    transform: translateY(5rem);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.why h3{
+    font-size: 1.8rem;
+}
+.box{
+     /* height: 250px;
+     width: 350px; */
+    border: 0.5px solid rgb(71, 71, 71);
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.wbox{
+    margin: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+}
+.span{
+    color: #2E47DE;
+}
+.wbox .bf{
+    padding: 1.5rem;
+    position: relative;
+    right: 32%;
+}
+.wbox .bf i{
+    color: #4962f3;
+}
+.wbox .bp{
+    padding: 1rem;
+}
+.wbox .bp p{
+     font-size: 1.4rem;
+}
+.wbox p{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 24px;
+}
+.box:hover {
+    background-color: #2E47DE;
+    color: white;
+}
+.box:hover .span{
+    color: white;
+}
+/* ----------why--------------- */
+/* ----------mtext------------- */
+.mtxt{
+    transform: translateY(5rem);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.mtxt h3{
+    margin: 1.5rem 1rem;
+    font-size: 3.5rem;
+}
+.mtxt p{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+/* ----------mtext------------- */
+/* -----------btngrp------------ */
+.msll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.btngrp{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 19px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.button{
+    height: 56px;
+    margin: 8px 8px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+.button:hover{
+    opacity: 0.8;
+    background-color: white;
+    color:#000042;
+}
+.btngrp .button:focus{
+    background-color: #2E47DE;
+}
+/* -----------btngrp------------ */
+/* -----------infobox----------- */
+.mes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.infobox{
+    margin: 5%;
+    border-radius: 15px;
+    height: 25rem;
+     background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color:white;
+    padding: 2.5rem;
+    font-size: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.infobox h3{
+    font-size: 2.3rem;
+}
+.dv{
+    position: absolute;
+    right: 10%;
+}
+.bcb{
+    text-align: center;
+}
+.bcb button{
+    padding:14px 18px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color:#2E47DE;
+    color: white;
+    margin: 1.5rem;
+}
+.bcb button:hover{
+    background-color: white;
+    color:#000042;
+}
+/* -----------infobox----------- */
+/*-------------globe png------------ */
+.gcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.gbg{
+    color: white;
+    margin-top: 10rem;
+    background-color: #2E47DE;
+    height: 30rem;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gcon img{
+    height: 40rem;
+    width: 40rem;
+    position: absolute;
+    animation: scroll 120s linear infinite;
+    /* animation-timeline: view(); */
+}
+@keyframes scroll{
+    0%{
+        /* transform:rotate(180deg); */
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.g1t,.g2t{
+    transform: translateY(8.3rem);
+}
+.g1t h1{
+    font-size: 4rem;
+}
+.g1t p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.g2t{
+    margin-top:2rem;
+}
+.g2t p{
+    opacity: 0.6;
+}
+/*-------------globe png------------ */
+
+/* ---------logo scroll--------- */
+.sl img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 15px;
+}
+.logoscrl{
+     overflow: hidden;
+}
+
+.lscroll_1{
+    margin: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    animation: lscrl 5s linear infinite alternate;
+    mask-image: linear-gradient(to right, rgba(254,254,254,-1), #000);
+
+   }
+   .lscroll_2{
+    margin: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    animation: lscrl1 5s linear infinite alternate;
+    mask-image: linear-gradient(to left, rgba(254,254,254,-1), #000 );
+   }
+@keyframes lscrl{
+    to{
+        transform:translateX(-20%) ;
+    }
+}
+@keyframes lscrl1{
+    to{
+        transform:translateX(20%) ;
+    }
+}
+/* ---------logo scroll--------- */
+
+/* ---------scroll next text---------- */
+.eh{
+    margin: auto;
+    width: 80%;
+}
+.eh h1{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.fpp{
+    text-align:center;
+}
+.fpp p{
+    color: white;
+    margin-top: 1.5rem;
+    letter-spacing: 0.7px;
+    font-size: 1.2rem;
+}
+.fpp button{
+    padding: 15px;
+    font-size:1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    color: white;
+    background-color: #2E47DE;
+}
+.fpp button:hover{
+    background-color: white;
+    color: #000042;
+}
+/* ---------scroll next text---------- */
+
+/* ---------footer------------------- */
+/* -------logo,fontawesome------------ */
+.fat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+.fl{
+    display: flex;
+    align-items: center;
+}
+.fl img{
+    height: 4rem;
+    width: 4rem;
+}
+.fl{
+    color: white;
+}
+.ff i{
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 10px;
+}
+.ff i:hover{
+    opacity: 0.8;
+}
+hr{
+    opacity: 0.3;
+}
+/* -------logo,fontawesome------------ */
+/* ---------footer para--------------- */
+.fp p{
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2%;
+    opacity: 0.5;
+}
+.fpp p{
+    font-size: 15px;
+    opacity: 0.8;
+}
+/* ---------footer para--------------- */
+/* ---------payment logos------------- */
+.pl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.pl img{
+    height: fit-content;
+    width: 4rem;
+}
+
+/* ---------payment logos------------- */
+/* ----------copyright text----------- */
+.cpy{
+    margin: 4rem;
+}
+.cpy p{
+    padding: 2rem;
+    color: white;
+    font-size: 1.4rem;
+    opacity: 0.2;
+    text-align: center;
+}
+/* ----------copyright text----------- */
+
+/* ---------footer------------------- */
+
+
+/* ---------index media query--------- */
+/* ---------index media query--------- */
+@media screen and (min-width:1200px){
+    .snav{
+        display: none;
+    }
+    .wbox{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    row-gap: 1rem;
+   }
+   .mtxt{
+    margin: auto;
+   }
+   .mtxt h3{
+    margin-left: 2.5rem;
+    text-align: center;
+    font-size: 5rem;
+   }
+   .mtxt p{
+    margin-top: 2rem;
+}
+.gcon{
+    position: relative;
+    text-align: center;
+}
+.gcon img{
+    position: absolute;
+    top: -4rem;
+}
+ 
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+        .nav{
+        width: 100%;
+        height: 4rem;
+    }
+    .bnr{
+        width:100%;
+    }
+    .bnr img{
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin: auto; */
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+    .snav_btn{
+        position: relative;
+        right: 3rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+        background-color: rgba(74, 17, 230, 0.5);
+        backdrop-filter: blur(20px);
+     }
+     .bnr img{
+        width: 100%;
+     }
+     .wbox{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    row-gap: 1rem;
+   }
+    .mtxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .mtxt h3{
+    font-size: 4rem;
+    margin: 1.5rem 0;
+   }
+   .mtxt p{
+    width: 80%;
+   }
+    .mes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+       .eh h1{
+        font-size: 5rem;
+        transform: translateY(-45px);
+    }
+    .gcon{
+        position: relative;
+        text-align: center;
+    }
+    .gcon img{
+        position: absolute;
+        top: -3.4rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+        .nav{
+        width: 100%;
+        height: 4rem;
+    }
+    .bnr{
+        width:100%;
+    }
+    .bnr img{
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 3rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }   
+     .wbox{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+   }
+    .mtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .mtxt h3{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+   }
+   .mtxt p{
+    width: 80%;
+    margin: 1rem 0.5rem;
+}
+ .mes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+     .eh h1{
+        font-size: 4rem;
+        transform: translateY(-45px);
+    }
+    .gcon{
+        position: relative;
+        text-align: center;
+    }
+    .gcon img{
+        position: absolute;
+        top: -3.5rem;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){ 
+    .nav{
+        width: 100%;
+         height: 3rem;
+    }
+    .bnr{
+        width:100%;
+    }
+    .bnr img{
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 3rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+         border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+      .bnr img{
+        width: 100%;
+     }
+     .box{
+    height: 220px;
+    width: 300px;
+   }
+   .wbox{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap:1rem;
+   }
+   .wbox .bf{
+    padding-bottom: 0;
+   }
+   .wbox .bp{
+    padding: 0;
+   }
+    .mtxt{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .mtxt h3{
+    font-size: 3rem;
+    margin: 1rem 0;
+   }
+   .mtxt p{
+    width:80%;
+   }
+    .btngrp{
+    gap: 5px;
+    margin-bottom: 20px;
+   }
+   .button{
+    height: 55px;
+    margin: 5px 5px;
+   }
+    .mes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+     .eh h1{
+        font-size: 3rem;
+        transform: translateY(-55px);
+    }
+    .gcon{
+        margin-top: 5rem;
+        position: relative;
+        text-align: center;
+    }
+    .gcon img{
+        position: absolute;
+        top: -5rem;
+    }
+    .fpp p{
+        margin-top:-0.5rem ;
+    }
+
+
+}
+@media screen and (max-width:575px){
+    .nav{
+        width: 100%;
+        height: 2rem;
+    }
+    .bnr{
+        width:100vw;
+        margin: auto;
+    }
+    .bnr img{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 2.9rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+         border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+ .btnb button{
+    padding: 8px;
+    height: 2.5rem;
+    width: fit-content;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+     .why h3{
+        font-size: 1.5rem;
+     }
+   .box{
+    height: 12.5rem;
+    width: 75%;
+    margin: 0.8rem 0;
+   }
+   .wbox{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .wbox .bf{
+    padding-bottom: 0;
+   }
+   .wbox .bp{
+    padding: 0;
+   }
+   .mtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .mtxt h3{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+   }
+   .mtxt p{
+    width: 80%;
+   }
+ 
+   .btngrp{
+    gap: 3px;
+    margin-bottom: 30px;
+    margin-top: -0.9rem;
+    /* width: fit-content; */
+   }
+   .button{
+    font-size: 0.8rem;
+    padding: 7px 13px;
+    height: 35px;
+    margin: 5px 0;
+   }
+   .mes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .eh h1{
+        font-size: 2.4rem;
+        transform: translateY(-55px);
+    }
+    .gcon{
+        height: 45rem;
+        position: relative;
+        text-align: center;
+    }
+    .gbg{
+        height: 20rem;
+        margin-top: 3rem;
+        margin-left: -14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gcon img{
+        height: 25rem;
+        width: 25rem;
+        position: absolute;
+         top: 2rem;
+    }
+    .g1t{
+        text-align: center;
+        position: absolute;
+        top: 17rem;
+    }
+    .g2t{
+        margin-top: 2rem;
+        position: absolute;
+        text-align: center;
+        top: 20rem;
+    }
+    .g1t h1{
+        font-size: 2rem;
+    }
+    .g1t p{
+        font-size: 0.8rem;
+    }
+    .g2t{
+        margin-top: 1rem;
+    }
+    .g2t p{
+        font-size: 0.8rem;
+    }
+    .fpp p{
+        margin-top:-0.5rem ;
+    }
+    .fpp button{
+        padding: 12px;
+        font-size: 1rem;
+    }
+    .fp p{
+        margin: 0 0.8rem;
+    }
+    .fat{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .ff{
+        margin: 0.6rem;
+    }
+    .pl{
+        margin: 0 0.8rem;
+    }
+    .cpy p{
+        font-size: 1.2rem;
+    }
+
+}
+/* ---------index media query--------- */
+/* ---------index media query--------- */
+
+
+
+

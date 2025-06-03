@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000042;
+     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+/*---------terms of use page-------------*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 990;
+    
+}
+.nav{
+    height: 4%;
+    width: 100%;
+    background-color: #000042;
+    background-image: url(./img/idoG8HR9sT_logos.png);
+    background-repeat: no-repeat;
+    background-size: 3rem 3rem;
+    background-position: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.nav h3{
+    position: absolute;
+    left: 3.5rem;
+}
+.na{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    text-align: center;
+}
+.na a{
+    height: 4rem;
+    width: 5.7rem;
+    color: white;
+    text-decoration: none;
+    padding: 22px 0;
+
+}
+.btnn{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    position: absolute;
+    right: 1rem;
+   
+}
+.btnn button{
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 15px;
+}
+.sb{
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+.db{
+    color: white;
+    border: none;
+    background-color: #2E47DE;
+}
+.hh{
+    height:1rem;
+    overflow:hidden;
+}
+.inn{
+     height: 12rem;
+    width: 10rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 4rem;
+    left: 42.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+.inn li{
+        font-size: 1.1rem;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 14px;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+.na a:hover{
+    color:#2E47DE;
+}
+.hh:hover .inn{
+     display: block;
+    z-index: 1000;
+}
+.inn li:hover{
+    border-bottom: 1.5px solid white;
+}
+.sb:hover{
+    background-color:white;
+    border: none;
+    color: #000042;
+}
+.db:hover{
+    background-color:white;
+    color: #000042;
+}
+
+.toubody{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    color: white;
+    margin-top: 4rem;
+}
+.touh{
+    text-align: center;
+    font-size: 1.7rem;
+    width: 70%;
+    margin: auto;
+    animation: down 2s linear;
+}
+ul li{
+     animation: down 2s linear;
+}
+@keyframes down{
+    0%{
+        transform:scale(0.1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.toucon{
+    padding: 3rem;
+}
+.con{
+    margin: 1rem 0;
+}
+.con h1{
+     animation: conn 1s linear; 
+     animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+.con p{
+    word-spacing: 1px;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    line-height: 1.5;
+    animation: conn 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.con ul{
+    animation: conn 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+@keyframes conn {
+    0%{
+        transform: translateY(1rem) scale(0.05);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.con3 ul{
+    margin-left: 5rem;
+    
+}
+.con3 ul li{
+    line-height: 1.5;
+}
+/* ---------footer------------------- */
+/* -------logo,fontawesome------------ */
+.fat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+.fl{
+    display: flex;
+    align-items: center;
+}
+.fl img{
+    height: 4rem;
+    width: 4rem;
+}
+.fl{
+    color: white;
+}
+.ff i{
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 10px;
+}
+.ff i:hover{
+    opacity: 0.8;
+}
+hr{
+    opacity: 0.3;
+}
+/* -------logo,fontawesome------------ */
+/* ---------footer para--------------- */
+.fp p{
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2%;
+    opacity: 0.5;
+}
+.fpp p{
+    font-size: 15px;
+    opacity: 0.8;
+}
+/* ---------footer para--------------- */
+/* ---------payment logos------------- */
+.pl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.pl img{
+    height: fit-content;
+    width: 4rem;
+}
+
+/* ---------payment logos------------- */
+/* ----------copyright text----------- */
+.cpy{
+    margin: 4rem;
+}
+.cpy p{
+    padding: 2rem;
+    color: white;
+    font-size: 1.4rem;
+    opacity: 0.2;
+    text-align: center;
+}
+/* ----------copyright text----------- */
+
+/* ---------footer------------------- */
+
+/*---------terms of use page-------------*/
+
+/*-----terms of use page media query---------*/
+@media screen and (min-width:1200px){
+    .snav{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+        .nav{
+        width: 100%;
+        height: 4rem;
+    }
+    .bnr{
+        width:100%;
+    }
+    .bnr img{
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 3rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+    }
+@media screen and (min-width:769px) and (max-width:991px){
+        .nav{
+        width: 100%;
+        height: 4rem;
+    }
+    .bnr{
+        width:100%;
+    }
+    .bnr img{
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 3rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+     }   
+@media screen and (min-width:576px)  and (max-width:767px){
+    .nav{
+        width: 100%;
+        height: 2rem;
+    }
+    .bnr{
+        width:100vw;
+        margin: auto;
+    }
+    .bnr img{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 2.9rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+    .touh{
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width:575px){
+    .nav{
+        width: 100%;
+        height: 2rem;
+    }
+    .bnr{
+        width:100vw;
+        margin: auto;
+    }
+    .bnr img{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .na,.btnn{
+        display: none;
+    }
+    .snav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .snav_btn1{
+        height: 3.5rem;
+        width: 13rem;
+        position: fixed;
+        bottom: 5%;
+        border: none;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+        border-radius: 5px;
+         background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+    }
+     .snav_btn{
+        position: relative;
+        right: 2.9rem;
+        height: 35.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        padding: 1.7rem;
+        border-radius: 15px;
+         background:linear-gradient(to bottom,#2D47D6,#2336B1,#0C1267);
+        display: none;
+    }
+    .snav_btn a{
+        margin: 0.8rem 0;
+        text-decoration: none;
+        color: white;
+    }
+    .snav_btn .sb,.db{
+        width: 100%;
+         font-size: 1rem;
+        padding: 12px 16px;
+        border-radius: 15px;
+    }
+     .snav_btn a:hover{
+        border-bottom: 1px solid white;
+     }
+     .snav_btn1:hover .snav_btn{
+        transform: translateY(-38.2rem);
+        display: flex;
+     }
+     .touh{
+        font-size: 1.3rem;
+     }
+     .fpp p{
+        margin-top:-0.5rem ;
+    }
+    .fpp button{
+        padding: 12px;
+        font-size: 1rem;
+    }
+    .fp p{
+        margin: 0 0.8rem;
+    }
+    .fat{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .ff{
+        margin: 0.6rem;
+    }
+    .pl{
+        margin: 0 0.8rem;
+    }
+    .cpy p{
+        font-size: 1.2rem;
+    }
+}
+/*-----terms of use page media query---------*/
