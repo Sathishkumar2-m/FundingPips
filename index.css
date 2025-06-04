@@ -1048,6 +1048,7 @@ hr{
         height: 45rem;
         position: relative;
         text-align: center;
+        margin:0 auto;
     }
     .gbg{
         height: 20rem;
