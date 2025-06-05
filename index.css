@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    overflow-x: hidden;
     background-color:#000042;
     height: 100vh;
     width: 100vw;
@@ -338,6 +339,7 @@ main,footer{
 /* -----------infobox----------- */
 /*-------------globe png------------ */
 .gcon{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,7 +400,7 @@ main,footer{
     border-radius: 15px;
 }
 .logoscrl{
-     overflow: hidden;
+     overflow-x: hidden;
 }
 
 .lscroll_1{
@@ -563,6 +565,7 @@ hr{
     margin-top: 2rem;
 }
 .gcon{
+    margin: 0 auto;
     position: relative;
     text-align: center;
 }
@@ -672,6 +675,7 @@ hr{
         transform: translateY(-45px);
     }
     .gcon{
+        margin: 0 auto;
         position: relative;
         text-align: center;
     }
@@ -777,6 +781,7 @@ hr{
         transform: translateY(-45px);
     }
     .gcon{
+        margin: 0 auto;
         position: relative;
         text-align: center;
     }
